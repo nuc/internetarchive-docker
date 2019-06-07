@@ -1,0 +1,2 @@
+#/bin/bash
+docker run -v /Users/nuc/Code/nuc/ia-docker/config:/home -ti nuc/ia --config-file '/home/.ia-custom-config' $@
